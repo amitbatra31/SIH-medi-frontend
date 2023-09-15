@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import ImageUpload from './ImageUpload';
 
+
 function App2() {
   return (
-    <div className="App">
-      <h1>Medicinal Plant Classification</h1>
+    <div className="App" style={{height:"100vh"}}>
       <ImageUpload />
     </div>
   );
