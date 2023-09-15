@@ -3,7 +3,7 @@ import './ImageUpload.css';
 
 const ImageUpload = () => {
   const [selectedImage, setSelectedImage] = useState();
-  const [result, setResult] = useState("set null");
+  const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
   const handleImageUpload = async () => {
